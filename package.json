@@ -1,12 +1,17 @@
 {
-  "name": "client",
+  "name": "@gabriel_mendes/hacker-chat-client-gm",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "user01": "node index.js --username mendes --room sala01 --hostUri http://localhost:9898",   
     "user02": "node index.js --username maria --room sala01 --hostUri http://localhost:9898",
+    "user03": "node index.js --username key --room sala03",   
+    "user04": "node index.js --username celine --room sala03",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
