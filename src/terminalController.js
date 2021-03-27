@@ -83,11 +83,5 @@ export default class TerminalController {
 
     components.input.focus()
     components.screen.render()
-
-    const users = ['mendes']
-    eventEmitter.emit(constants.events.app.STATUS_UPDATED, users)
-    users.push('maria', 'aleticiana')
-    eventEmitter.emit(constants.events.app.STATUS_UPDATED, users)
-    users.push('andre')
   }
 }
