@@ -1,5 +1,5 @@
 {
-  "name": "@gabriel_mendes/hacker-chat-client-gm",
+  "name": "@gabriel_mendes/hacker-chat",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -14,6 +14,9 @@
     "user04": "node index.js --username celine --room sala03",
 
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "15"
   },
   "keywords": [],
   "author": "",
